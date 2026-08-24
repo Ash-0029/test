@@ -1,1 +1,13 @@
-test 123
+c = float(input("Input your temperature: "))
+
+f = (c * 9/5) + 32
+
+print (f) #converts celcius to farenheit
+
+
+f = float(input("Input your temperature: "))
+
+c = (f - 32)/1.8
+
+print (c) #converts farenheit to celcius
+
